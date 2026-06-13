@@ -1,0 +1,12 @@
+# Python dependencies for the PornHub downloader.
+# Install with:  pip install -r requirements.txt
+#
+# NOTE: A working `ffmpeg` (and `ffprobe`) binary must also be installed and on
+# your PATH. This is a system dependency, not a pip package. The tool shells out
+# to ffmpeg directly for muxing/remuxing/transcoding and to ffprobe for the
+# integrity check. See README.md for installation instructions.
+
+yt-dlp>=2024.4.9
+aiohttp>=3.9.0
+requests>=2.31.0
+tqdm>=4.66.0
